@@ -1,0 +1,34 @@
+{
+    "name": "patourasalexandros/eloquent-comparison",
+    "description": "A package that compare two eloquent models of the same, type and return the fields with changes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Patouras Alexandros",
+        "email": "patourasalexandros@gmail.com"
+      }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "PatourasAlexandros\\Eloquent-Comparison\\": "src"
+        }
+    },
+  "autoload-dev": {
+        "psr-4": {
+            "PatourasAlexandros\\Eloquent-Comparison\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PatourasAlexandros\\EloquentComparison\\ComparisonServiceProvider"
+            ]
+        }
+    }
+}
