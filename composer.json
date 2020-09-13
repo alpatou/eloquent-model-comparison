@@ -28,7 +28,10 @@
         "laravel": {
             "providers": [
                 "PatourasAlexandros\\EloquentComparison\\ComparisonServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "ModelComparison" : "PatourasAlexandros\\EloquentComparison\\Fascades\\ModelComparison"
+            }
         }
     }
 }
